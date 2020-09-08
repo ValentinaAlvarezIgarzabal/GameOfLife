@@ -7,8 +7,8 @@ namespace PII_Game_Of_Life
     public class ImprimirTablero
     {
         bool[,] b ;//variable que representa el tablero
-        int width = 4;//variabe que representa el ancho del tablero
-        int height = 4;  //variabe que representa altura del tablero
+        int width; //variabe que representa el ancho del tablero
+        int height;  //variabe que representa altura del tablero
         While (true)
         {
             Console.Clear();
