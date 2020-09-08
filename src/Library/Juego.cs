@@ -3,9 +3,9 @@ namespace PII_Game_Of_Life
 {
     public class Juego 
     {
-        bool[,] gameBoard = ;
-        int boardWidth = gameBoard.GetLength(0);
-        int boardHeight = gameBoard.GetLength(1);
+        private bool[,] gameBoard;
+        private int boardWidth = gameBoard.GetLength(0);
+        private int boardHeight = gameBoard.GetLength(1);
 
         bool[,] cloneboard = new bool[boardWidth, boardHeight];
         for (int x = 0; x < boardWidth; x++)
